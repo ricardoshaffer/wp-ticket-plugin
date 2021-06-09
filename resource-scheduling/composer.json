@@ -1,0 +1,21 @@
+{
+    "name" : "ricardo/scheduler",
+    "description" : "a scheduling platform",
+    "ext-intl" : "*",
+    "keywords" : ["schedule","ricardo","scheduler"],
+    "homepage" : "http://www.github.com/ricardoshaffer",
+    "license" : "BSD-3-Clause",
+    "authors" : [{
+            "name" : "Ricardo Shaffer",
+            "email" : "hello@ricardoshaffer.com"
+        }
+    ],
+        "config": {
+            "platform": {
+                "ext-intl": "0"
+            }
+        },
+    "require": {
+        "wixel/gump": "~v1.12.1"
+    }
+}

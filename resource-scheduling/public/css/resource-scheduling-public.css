@@ -1,0 +1,22 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .mb-3 {
+    text-align: right;
+}
+.invalid-feedback{
+    background-color:#ffe2e2;
+    display: inherit;
+    width: fit-content;
+    padding: 5px;
+    margin-right: 0px;
+    margin-left: auto;
+    border-radius: 5px;
+
+}
+.error-text{
+    color: red;
+    text-align: right;
+    
+}

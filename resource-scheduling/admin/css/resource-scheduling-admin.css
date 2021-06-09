@@ -1,0 +1,79 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .bg-custom{
+    background-color: rgb(236 0 44 / 35%) !important;
+ }
+ .badge{
+     display: table-cell !important;
+ }
+ body {
+     background-color: #fff !important;
+     color: #2b224d !important; 
+     /* #353e6 */
+ }
+ .btn{
+     background-color: coral !important;
+     border-color: coral !important;
+ }
+ .input-group-text{
+     background-color: #ffbea6 !important;
+ }
+ .label{
+     font-weight: 600;
+ }
+ .list-group-item{
+     border: 0px !important;
+    -moz-box-shadow: 5px 5px 5px rgb(255 226 213 / 40%), -2px -3px 2px rgb(255 255 255 / 35%);
+    -webkit-box-shadow: 5px 5px 5px rgb(255 226 213 / 40%), -2px -3px 2px rgb(255 255 255 / 35%);
+    box-shadow: 5px 5px 5px rgb(255 226 213 / 40%), -2px -3px 2px rgb(255 255 255 / 35%);
+    background-color: #fffaf6 !important;
+ }
+ .status-CLOSED span{
+    background-color: rgb(152 152 152);
+    color: white !important;
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: inherit;
+    line-height: 1;
+}
+.status-NEW span{
+    background-color: rgb(80, 92, 255);
+    color: white !important;
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: inherit;
+    line-height: 1;
+}
+.status-OPEN span{
+    background-color: coral;
+    color: white !important;
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: inherit;
+    line-height: 1;
+}
+
+.status-IN-PROGRESS span{
+    background-color: orange;
+    color: white !important;
+    border-radius: 5px;
+    padding: 5px;
+    vertical-align: inherit;
+    line-height: 1;
+}
+.ticket-note{
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+ .ticketNotes {
+    background-color: rgb(255 246 240);
+    -moz-box-shadow: 5px 5px 5px rgb(255 199 173 / 40%), -2px -3px 2px rgb(255 244 231);
+    -webkit-box-shadow: 5px 5px 5px rgb(255 199 173 / 40%), -2px -3px 2px rgb(255 244 231);
+    box-shadow: 5px 5px 5px rgb(255 199 173 / 40%), -2px -3px 2px rgb(255 244 231);
+ }
+ .update-ticket-form{
+        text-align: left;
+ }
