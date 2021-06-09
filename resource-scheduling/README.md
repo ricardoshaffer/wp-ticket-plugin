@@ -26,3 +26,4 @@ This plugin contains a basic front-end slug with GUMP validation. Data appears o
 *   __Moment.js__: Used to convert timestamp into readable format.
 *   __Bootstrap__: Version 5.0.1. Not downloaded (located within Admin/class-resource-scheduling-admin.php & public file)
 *   __Datatables__: Version 1.10.24. Not downloaded (located as stated above; not in public file)
+*   __WPPB.ME__: WORDPRESS Plugin Biolerplate Generator [wppb.me](https://wppb.me/)
