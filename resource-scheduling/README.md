@@ -1,8 +1,8 @@
 # WORDPRESS.ORG PLUGIN FOR BASIC TICKETING SYSTEM
 This plugin contains a basic front-end slug with GUMP validation. Data appears on the backend admin menu under 'Resource Scheduling'. Admin is able to update the tickets internally, close the tickets, and filter using DataTables.
 
-![Admin View](images/admin-panel.png | width=220)
-![Front-End View](images/front-end-validation.png | width=220)
+![Admin View](images/admin-panel.png)
+![Front-End View](images/front-end-validation.png)
 ## CONFIGURATION
 *   Utilizes PDO to make calls directly to SQL Database; does not utilize WPDB.
 *   Requires Composer for GUMP validation utilization.
